@@ -11,7 +11,7 @@ public class ListNode {
     public ListNode() {
     }
 
-    ListNode(int val) {
+    public ListNode(int val) {
         this.val = val;
     }
 
@@ -28,5 +28,12 @@ public class ListNode {
             succ = node;
         }
         return node;
+    }
+
+    public static void toString(ListNode node) {
+        while(node != null) {
+            System.out.print(node.val + " ");
+            node = node.next;
+        }
     }
 }
