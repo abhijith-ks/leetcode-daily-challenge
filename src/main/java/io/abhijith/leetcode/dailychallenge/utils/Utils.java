@@ -4,9 +4,9 @@ public class Utils {
 
     public static void main(String[] args) {
         // Build class name
-        String input = "Toeplitz Matrix";
-        String lc = "766";
-        String day = "31";
+        String input = "Unique Number of Occurrences";
+        String lc = "1207";
+        String day = "30";
         System.out.println(generateClassName(input, lc, day));
     }
 
